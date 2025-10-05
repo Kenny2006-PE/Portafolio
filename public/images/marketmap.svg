@@ -1,0 +1,70 @@
+<!-- MarketMap Project Illustration -->
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#mapGrad)"/>
+  
+  <!-- Map Interface -->
+  <rect x="20" y="30" width="360" height="180" rx="15" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- Map Grid -->
+  <g stroke="rgba(255,255,255,0.1)" stroke-width="1">
+    <line x1="20" y1="80" x2="380" y2="80"/>
+    <line x1="20" y1="130" x2="380" y2="130"/>
+    <line x1="20" y1="180" x2="380" y2="180"/>
+    <line x1="100" y1="30" x2="100" y2="210"/>
+    <line x1="200" y1="30" x2="200" y2="210"/>
+    <line x1="300" y1="30" x2="300" y2="210"/>
+  </g>
+  
+  <!-- Location Pins -->
+  <g fill="#ff6b6b">
+    <circle cx="80" cy="70" r="8"/>
+    <path d="M80 62 L80 70 L88 78 Z"/>
+  </g>
+  <g fill="#4ecdc4">
+    <circle cx="180" cy="110" r="8"/>
+    <path d="M180 102 L180 110 L188 118 Z"/>
+  </g>
+  <g fill="#45b7d1">
+    <circle cx="320" cy="90" r="8"/>
+    <path d="M320 82 L320 90 L328 98 Z"/>
+  </g>
+  <g fill="#96ceb4">
+    <circle cx="140" cy="160" r="8"/>
+    <path d="M140 152 L140 160 L148 168 Z"/>
+  </g>
+  
+  <!-- Product Cards -->
+  <rect x="30" y="45" width="60" height="25" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="35" y="50" width="15" height="15" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="55" y="52" width="30" height="3" rx="1.5" fill="rgba(255,255,255,0.6)"/>
+  <rect x="55" y="58" width="20" height="3" rx="1.5" fill="rgba(255,255,255,0.4)"/>
+  
+  <!-- Search Bar -->
+  <rect x="40" y="220" width="320" height="20" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="350" cy="230" r="6" fill="rgba(255,255,255,0.4)"/>
+  <path d="M347 227 L353 233" stroke="rgba(255,255,255,0.8)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tech Stack Indicators -->
+  <rect x="10" y="10" width="45" height="15" rx="7" fill="rgba(97, 218, 251, 0.8)"/>
+  <text x="32" y="20" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">React</text>
+  
+  <rect x="60" y="10" width="60" height="15" rx="7" fill="rgba(106, 90, 205, 0.8)"/>
+  <text x="90" y="20" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Spring Boot</text>
+  
+  <rect x="125" y="10" width="45" height="15" rx="7" fill="rgba(76, 175, 80, 0.8)"/>
+  <text x="147" y="20" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">Leaflet</text>
+  
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">MarketMap - Plataforma Web</text>
+</svg>
